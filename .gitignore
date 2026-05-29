@@ -1,0 +1,26 @@
+# === Mac System Files ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Zed Editor Configs ===
+.zed/
+.zed-settings.json
+
+# === FreeCAD Backups & Locks ===
+*.FCStd1
+*.FCStd2
+*.FCBak
+*.lock
+
+# === OrcaSlicer Outputs ===
+*.gcode
+*.bgcode
+*.3mf
+# Ignore auto-saved slicer project backups
+*.autosave
+
+# === Klipper / Hardware Configs ===
+*.log
+*.bak
+moonraker.secrets
